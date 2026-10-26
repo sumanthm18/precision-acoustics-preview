@@ -2,13 +2,17 @@
 <html lang="en-AU">
 <head>
 <meta charset="utf-8">
-<meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Locations and contact | Precision Acoustics</title>
 <meta name="description" content="Clinics in Doncaster East, East Melbourne and Glen Waverley. Call (03) 9894 5433 for all bookings.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500;700;800&family=Hanken+Grotesk:wght@400;500;600;700&display=swap">
+<link rel="canonical" href="https://precisionacoustics.com.au/contact.html">
+<meta property="og:title" content="Locations and contact | Precision Acoustics">
+<meta property="og:description" content="Clinics in Doncaster East, East Melbourne and Glen Waverley. Call (03) 9894 5433 for all bookings.">
+<meta property="og:url" content="https://precisionacoustics.com.au/contact.html">
+<meta property="og:image" content="https://precisionacoustics.com.au/assets/photos/clinic-front.jpg">
 <link rel="icon" href="assets/logo/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="assets/styles.css">
 </head>
@@ -96,7 +100,7 @@
     </div>
 
     <div>
-      <form class="form" id="enquiry-form" novalidate>
+      <form class="form" id="enquiry-form" novalidate data-endpoint="" data-email="billolayos@bigpond.com">
         <label class="field" for="enquiry-name">Full name
           <input id="enquiry-name" name="name" type="text" autocomplete="name" required>
           <span class="error" id="enquiry-name-error" hidden></span>
@@ -134,8 +138,8 @@
         <button class="btn" type="submit">Send enquiry</button>
       </form>
       <div class="sent" id="enquiry-sent" tabindex="-1" hidden>
-        <strong>That is how the form will work.</strong>
-        This is a prototype, so nothing was sent. On the live site your enquiry goes to reception, who call you back to book.
+        <strong id="enquiry-sent-title">Thank you, your enquiry has been sent.</strong>
+        <span id="enquiry-sent-detail">Reception will call you back to find a time. If it is urgent, call (03) 9894 5433.</span>
       </div>
     </div>
   </div>
@@ -172,9 +176,6 @@
     <span>&copy; 2026 Precision Acoustics</span>
   </div>
 </div></footer>
-<aside class="proto" aria-label="Prototype note"><div class="wrap">
-  <span>Prototype for review. Photos, opening hours and the email address are still to come.</span>
-</div></aside>
 <script src="assets/site.js"></script>
 </body>
 </html>
