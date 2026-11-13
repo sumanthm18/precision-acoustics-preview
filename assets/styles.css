@@ -123,6 +123,7 @@ p { text-wrap: pretty; }
 .photo--wide { aspect-ratio: 16 / 10; border-radius: var(--r-panel); }
 .photo--left { border-radius: 104px var(--r-panel) var(--r-panel) var(--r-panel); }
 .photo img.cover { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; max-width: none; }
+.photo img.cover--face { object-position: 50% 10%; } /* keep the face in a wide phone crop */
 .photo .watermark { position: absolute; right: -10%; top: 6%; width: 82%; height: auto; opacity: 0.13; }
 .photo figcaption {
   position: relative; margin: 18px; padding: 8px 14px; border-radius: 999px;
